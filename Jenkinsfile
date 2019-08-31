@@ -34,7 +34,7 @@ pipeline {
     }
   }
   environment {
-    registry = '192.168.56.113:5000/myweb'
+    registry = '192.168.56.113:5000'
     dockerImage = ''
   }
 }
